@@ -1,0 +1,26 @@
+/* General styling for the entire page */
+body {
+    font-family: Arial, sans-serif;  /* Using a clean sans-serif font */
+    margin: 0;                      /* Removing default margins */
+    padding: 0;                     /* Removing default padding */
+    text-align: center;              /* Center-aligning the text for a balanced look */
+}
+
+/* Styling the header section */
+header {
+    background-color: #f8f9fa;       /* Light background color for the header */
+    padding: 50px;                   /* Generous padding to create space around content */
+}
+
+/* Image styling to ensure it fits the width of the screen and scales properly */
+img {
+    width: 100%;                     /* Making the image stretch across the entire width */
+    height: auto;                    /* Preserving the aspect ratio of the image */
+}
+
+/* Styling the main content section */
+section {
+    padding: 20px;                   /* Padding to create space around the text */
+    background-color: #e9ecef;       /* Soft background color for the content section */
+}
+
