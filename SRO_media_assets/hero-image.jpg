@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta data for character encoding and responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Page title displayed in the browser tab -->
+    <title>Smart Recipe Organizer</title>
+    
+    <!-- Internal CSS for styling the landing page -->
+    <style>
+        /* General page styling: sets font and removes default margins/padding */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Hero section styling: full-screen background image with centered content */
+        .hero {
+            height: 100vh; /* Full viewport height */
+            background: url('assets/hero-image.jpg') no-repeat center center/cover; /* Hero image, centered and covering entire section */
+            display: flex;
+            align-items: center; /* Center content vertically */
+            justify-content: center; /* Center content horizontally */
+            color: white; /* White text color for contrast */
+            text-align: center; /* Center-align text */
+        }
+
+        /* Styling for the main heading */
+        .hero h1 {
+            font-size: 4rem; /* Large font size for the main heading */
+            margin: 0; /* Remove default margins */
+        }
+
+        /* Styling for the sub-heading */
+        .hero p {
+            font-size: 1.5rem; /* Font size for sub-heading text */
+            margin-top: 10px; /* Small spacing above the paragraph */
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero section containing the page's main title and description -->
+    <div class="hero">
+        <div>
+            <!-- Main title: large heading to introduce the website -->
+            <h1>Smart Recipe Organizer</h1>
+            <!-- Short description of the site's purpose -->
+            <p>Organize, Search, and Manage Your Recipes Seamlessly</p>
+        </div>
+    </div>
+</body>
+</html>
+
